@@ -55,7 +55,7 @@ plt.plot(r.history['val_accuracy'], label='val acc')
 plt.legend()
 plt.show()
 plt.savefig('AccVal_acc')
-model.save("fruit.h5")
+model.save("fruit.h5")#for saving the model
 
  
         
